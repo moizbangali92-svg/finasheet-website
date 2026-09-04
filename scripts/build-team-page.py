@@ -104,7 +104,7 @@ def main():
         return 1
 
     # keep the page in a deliberate order rather than whatever JSON order is
-    RANK = ["director", "manager", "executive"]
+    RANK = ["founder", "director", "manager", "executive"]
 
     def rank(e):
         t = (e.get("title") or "").lower()
